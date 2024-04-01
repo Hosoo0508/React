@@ -1,0 +1,172 @@
+@import '../../../src/components/style.css/style.css';
+
+.btn-small {
+  padding: var(--btn-sm-px), var(--btn-sm-py);
+  border-radius: var(--btn-sm-radius);
+  gap: var(--btn-sm-gap);
+  border: var(--btn-sm-border);
+}
+
+.btn-medium {
+  padding: var(--btn-md-px), var(--btn-md-py);
+  border-radius: var(--btn-md-radius);
+  gap: var(--btn-md-gap);
+  border: var(--btn-md-border);
+}
+
+.btn-large{
+  padding: var(--btn-lg-px), var(--btn-lg-py);
+  border-radius: var(--btn-lg-radius);
+  gap: var(--btn-lg-gap);
+  border: var(--btn-lg-border);
+}
+
+/* Variants */
+
+/* Filled */
+
+/* Primary */
+
+.btn-filled-blue-default{
+  background-color: var(--btn-filled-blue-default);
+
+}
+.btn-filled-blue-hover{
+  background-color: var(--btn-filled-blue-hover);
+}
+.btn-filled-blue-focused{
+  background-color: var(--btn-filled-blue-focused);
+}
+.btn-filled-blue-pressed{
+  background-color: var(--btn-filled-blue-pressed);
+}
+.btn-filled-blue-disabled{
+  background-color: var(--btn-filled-blue-disabled);
+}
+
+/* Secondary */
+.btn-filled-gold-default{
+  background-color: var(--btn-filled-gold-default);
+}
+.btn-filled-gold-hover{
+  background-color: var(--btn-filled-gold-hover);
+}
+.btn-filled-gold-focused{
+  background-color: var(--btn-filled-gold-focused);
+}
+.btn-filled-gold-pressed{
+  background-color: var(--btn-filled-gold-pressed);
+}
+.btn-filled-gold-disabled{
+  background-color: var(--btn-filled-gold-disabled);
+}
+  /* Gray */
+
+  .btn-filled-gray-default{
+    background-color: var(--btn-filled-gray-default);
+  }
+  .btn-filled-gray-hover{
+    background-color: var(--btn-filled-gray-hover);
+  }
+  .btn-filled-gray-focused{
+    background-color: var(--btn-filled-gray-focused);
+  }
+  .btn-filled-gray-pressed{
+    background-color: var(--btn-filled-gray-pressed);
+  }
+  .btn-filled-gray-disabled{
+    background-color: var(--btn-filled-gray-disabled);
+  }
+
+
+/* Destructive */
+
+  .btn-filled-red-default{
+    background-color: var(--btn-filled-red-default);
+  }
+  .btn-filled-red-hover{
+    background-color: var(--btn-filled-red-hover);
+  }
+  .btn-filled-red-focused{
+    background-color: var(--btn-filled-red-focused);
+  }
+  .btn-filled-red-pressed{
+    background-color: var(--btn-filled-red-pressed);
+  }
+  .btn-filled-red-disabled{
+    background-color: var(--btn-filled-red-disabled);
+  }
+
+
+  /* text */
+
+/* Primary */
+
+.btn-text-blue-default{
+  background-color: var(--btn-text-blue-default);
+}
+.btn-text-blue-hover{
+  background-color: var(--btn-text-blue-hover);
+}
+.btn-text-blue-focused{
+  background-color: var(--btn-text-blue-focused);
+}
+.btn-text-blue-pressed{
+  background-color: var(--btn-text-blue-pressed);
+}
+.btn-text-blue-disabled{
+  background-color: var(--btn-text-blue-disabled);
+}
+
+/* Secondary */
+.btn-text-gold-default{
+  background-color: var(--btn-text-gold-default);
+}
+.btn-text-gold-hover{
+  background-color: var(--btn-text-gold-hover);
+}
+.btn-text-gold-focused{
+  background-color: var(--btn-text-gold-focused);
+}
+.btn-text-gold-pressed{
+  background-color: var(--btn-text-gold-pressed);
+}
+.btn-text-gold-disabled{
+  background-color: var(--btn-text-gold-disabled);
+}
+  /* Gray */
+
+  .btn-text-gray-default{
+    background-color: var(--btn-text-gray-default);
+  }
+  .btn-text-gray-hover{
+    background-color: var(--btn-text-gray-hover);
+  }
+  .btn-text-gray-focused{
+    background-color: var(--btn-text-gray-focused);
+  }
+  .btn-text-gray-pressed{
+    background-color: var(--btn-text-gray-pressed);
+  }
+  .btn-text-gray-disabled{
+    background-color: var(--btn-text-gray-disabled);
+  }
+
+
+/* Destructive */
+
+  .btn-text-red-default{
+    background-color: var(--btn-text-red-default);
+  }
+  .btn-text-red-hover{
+    background-color: var(--btn-text-red-hover);
+  }
+  .btn-text-red-focused{
+    background-color: var(--btn-text-red-focused);
+  }
+  .btn-text-red-pressed{
+    background-color: var(--btn-text-red-pressed);
+  }
+  .btn-text-red-disabled{
+    background-color: var(--btn-text-red-disabled);
+  }
